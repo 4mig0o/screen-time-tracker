@@ -1,0 +1,30 @@
+# Local user data and credentials
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local history, reference projects and generated checks
+/backups/
+/work/
+/qa-output/
+
+# Generated application packages (keep out of source history)
+/build/
+/dist/
+*.exe
+*.zip
