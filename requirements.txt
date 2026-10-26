@@ -1,0 +1,2 @@
+# 源码运行和打包需要 Pillow，用来读取 Windows 软件原生图标。
+Pillow>=10.0
